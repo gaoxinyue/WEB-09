@@ -62,25 +62,25 @@ window.onload = function() {
 }
 
 // ******
-// window.onload = function() {
-// 	var jiarugouwuche = document.getElementsByClassName("jiarugouwuche")[0];
-// 	var Mengzhao = document.getElementsByClassName("Mengzhao")[0];
-// 	var chance = document.getElementsByClassName("chance")[0];
-// 	var chanceguanbi = document.getElementsByClassName("chanceguanbi")[0];
-// 	var jixu = document.getElementsByClassName("jixu")[0];
-// 	var jiesuan = document.getElementsByClassName("jiesuan")[0];
-// 	jiarugouwuche.onclick = function(){
-// 		Mengzhao.style.display = "block";
-// 		chance.style.display = "block";
-// 	}
+window.onload = function() {
+	var jiarugouwuche = document.getElementsByClassName("jiarugouwuche")[0];
+	var Mengzhao = document.getElementsByClassName("Mengzhao")[0];
+	var chance = document.getElementsByClassName("chance")[0];
+	var chanceguanbi = document.getElementsByClassName("chanceguanbi")[0];
+	var jixu = document.getElementsByClassName("jixu")[0];
+	var jiesuan = document.getElementsByClassName("jiesuan")[0];
+	jiarugouwuche.onclick = function(){
+		Mengzhao.style.display = "block";
+		chance.style.display = "block";
+	}
 
-// 	jixu.onclick = guanbi;
-// 	jiesuan.onclick = guanbi;
-// 	chanceguanbi.onclick = guanbi;
-// 	function guanbi(){
-// 		Mengzhao.style.display = "none";
-// 		chance.style.display = "none";
-// 	}
-// }
+	jixu.onclick = guanbi;
+	jiesuan.onclick = guanbi;
+	chanceguanbi.onclick = guanbi;
+	function guanbi(){
+		Mengzhao.style.display = "none";
+		chance.style.display = "none";
+	}
+}
 
 // ******
