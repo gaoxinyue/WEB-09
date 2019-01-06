@@ -345,7 +345,7 @@ a{
 }
 
 /*******/
-.big{
+.box{
 	float: left;
 	width: 400px;
 	height: 400px;
@@ -353,12 +353,12 @@ a{
 	overflow: hidden;
 	position: relative;
 }
-/*.pic{
+/*.img{
 	width: 800px; *******************
 	height: 400px;	
 	position: relative;	
 }*/
-.pic{
+.img{
 	width: 400px;
 	height: 400px;	
 	position: relative;	
