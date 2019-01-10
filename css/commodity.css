@@ -345,26 +345,82 @@ a{
 }
 
 /*******/
-.box{
+/*.box2{
 	float: left;
 	width: 400px;
 	height: 400px;
-	margin: 20px; /* img的margin，不是commodity-left-top-image的 */
+	margin: 20px;
 	overflow: hidden;
 	position: relative;
 }
-/*.img{
-	width: 800px; *******************
-	height: 400px;	
-	position: relative;	
-}*/
 .img{
 	width: 400px;
 	height: 400px;	
 	position: relative;	
+}*/
+
+#box{
+	float: left;
+	width:440px;
+	height:455px;
+	position:relative;
+	/*border: 1px solid #676660;*/
+	/*display: none;*/
+	overflow: hidden;
 }
 
+#img1{
+	/*width: 400px;*/
+	width: 800px;
+	height: 400px;
+	margin: 20px;
+	position:absolute;
+	left:0;
+	top:0;
+	border:1px sloid #676660;
+	display: block;
+	overflow: hidden;
+}
+.image1{
+	float: left;
+}
+.image11{
+	display: block;
+}
+.image12{
+	display: none;
+}
 
+#slider{
+width:100px;
+height:100px;
+position:absolute;
+left:0;
+top:0;
+background: #676660;
+opacity:0.8;
+cursor: move;
+display:none; 
+}
+#img2{
+	position:absolute;
+	left: 700px;
+	top: 210px;
+	display:none; 
+	width:400px;
+	height:400px;
+	margin: 20px;
+	overflow:hidden;
+	border: 1px solid #676660;
+	display: none;
+}
+#Bimg{
+	position:absolute;
+	left:0;
+	top:0;
+	width: 1600px;
+	height: 1600px;
+}
 
 
 
@@ -374,6 +430,7 @@ a{
 	width: 550px;
 	height: 450px;
 	overflow: hidden;
+	/*display: none;*/
 }
 .commodity-left-top-hanguo{
 	float: left;
